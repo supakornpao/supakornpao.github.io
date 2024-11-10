@@ -43,14 +43,19 @@ p:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
-
-#image{
+img{
     border: 2px solid seashell;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
-#image:hover{
+img:hover{
+    width:"200" ;
+    height:"300";
     border: 2px solid rgb(160, 255, 174);
+    width: 400px;
+    height: 600px;
+    
 }
 
 body{
@@ -112,4 +117,3 @@ body{
     font-size: large;
     color: blanchedalmond;
 } 
-
