@@ -1,0 +1,107 @@
+#container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:600px;
+    width: 1000px;
+    background-color: rgb(68, 32, 122);
+
+    border: 5px solid rgb(68, 32, 122);
+
+    border-radius: 5px;
+    
+    /* align-content: center; */
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+#subcontainer1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(32, 81, 122);
+    
+    /* align-content: center; */
+    align-items: center; 
+    justify-content: space-evenly;
+
+    border: 2px solid seagreen;
+    border-radius: 3px;
+}
+
+p{
+    color: rgb(197, 255, 236);
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p:hover{
+    color: sandybrown;
+    font-size:  23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#image{
+    border: 2px solid seashell;
+    border-radius: 5px;
+}
+
+#image:hover{
+    border: 2px solid rgb(160, 255, 174);
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center; 
+    justify-content: center;
+    background-color: rgb(119, 119, 255);
+}
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+
+    width: 500px;
+    background-color: rgb(32, 60, 122);
+    
+    /* align-content: center; */
+    align-items: center; 
+    justify-content: flex-start;
+
+    border: 2px solid seagreen;
+    border-radius: 5px;
+    
+}
+
+#container2 p{
+    font-size: large;
+    color: blanchedalmond;
+} 
+
+#container3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(32, 60, 122);
+    
+    /* align-content: center; */
+    align-items: center; 
+    justify-content: flex-start;
+
+    border: 2px solid seagreen;
+    border-radius: 3px;
+}
+#container3 p{
+    font-size: large;
+    color: blanchedalmond;
+} 
+
