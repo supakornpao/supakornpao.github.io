@@ -76,7 +76,7 @@ body{
     justify-content: flex-start;
 
     border: 2px solid seagreen;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
@@ -84,6 +84,10 @@ body{
     font-size: large;
     color: blanchedalmond;
 } 
+
+#container2:hover {
+    background-color: rgb(122, 158, 236);
+}
 
 #container3 {
     display: flex;
@@ -98,8 +102,12 @@ body{
     justify-content: flex-start;
 
     border: 2px solid seagreen;
-    border-radius: 3px;
+    border-radius: 10px;
 }
+#container3:hover {
+    background-color: rgb(122, 158, 236);
+}
+
 #container3 p{
     font-size: large;
     color: blanchedalmond;
